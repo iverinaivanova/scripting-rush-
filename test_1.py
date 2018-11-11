@@ -6,8 +6,9 @@ texts beyond sentence boundaries.
 
 #Importing the ET module to parse XML data
 import xml.etree.ElementTree
-# 
+
 prev = 0
+
 #Storing the parsed XML data into the variable my_tree1
 my_tree1 = xml.etree.ElementTree.parse('').getroot()
 '''Creating two empty lists.
