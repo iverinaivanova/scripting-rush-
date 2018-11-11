@@ -9,7 +9,7 @@ import xml.etree.ElementTree
 # 
 prev = 0
 #Storing the parsed XML data into the variable my_tree1
-my_tree1 = xml.etree.ElementTree.parse('C:/Users/Administrator/AppData/Local/Programs/Python/Python36-32/abstract_1.txt.xml').getroot()
+my_tree1 = xml.etree.ElementTree.parse('').getroot()
 '''Creating two empty lists.
 To the first one I'll append all NP occurrences found in the XML file.
 To the second one -- the difference (i.e. the result from subtracting the index
