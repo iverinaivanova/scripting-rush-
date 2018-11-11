@@ -1,6 +1,6 @@
 '''
 The following script calculates the mean distance between NP occurrences in
-texts.
+texts beyond sentence boundaries.
 '''
 
 
