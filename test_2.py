@@ -78,15 +78,13 @@ To the first one I'll append all coref tags and to the second all mention tags.'
 myCorefs =[]
 myMent =[]
 
-'''Find all coreference tags and append them to the myCorefs list.
-'''
+'''Find all coreference tags and append them to the myCorefs list.'''
 
 for child in my_tree1.iter("coreference"):
     if child.tag == "coreference":
         myCorefs.append(child)
 
-'''Find all mention tags and append them to the myMent list.
-'''
+'''Find all mention tags and append them to the myMent list.'''
 
 for child in my_tree1.iter("mention"):
     if child.tag == "mention":
