@@ -1,5 +1,3 @@
-#### scripting-rush-
-
 ## A script that calculates the distance between NP occurences in a text
 
 ## Components:
