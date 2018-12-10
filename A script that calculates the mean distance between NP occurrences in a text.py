@@ -11,6 +11,7 @@ prev = 0
 
 #Storing the parsed XML data into the variable my_tree1
 my_tree1 = xml.etree.ElementTree.parse('').getroot()
+
 '''Creating two empty lists.
 To the first one I'll append all NP occurrences found in the XML file.
 To the second one -- the difference (i.e. the result from subtracting the index
@@ -19,6 +20,7 @@ is stored.
 '''
 myNPs = []
 myDiff = []
+
 '''
 Iterate through the tokens. Get the index of the token whose value equals NN, NNS,
 NNP, NNPS, and append them to the myNPs list. If the index of the current NP
@@ -80,10 +82,12 @@ for token in my_tree1.iter("token"):
             print(difference)
             myDiff.append(difference)
 print(myNPs)
+
 #It counts the number of NPs appended to myNPs list.
 print("Total NPs: ", len(myNPs))
 print(myDiff)
 print(len(myDiff))
+
 # It calculates the sum of the differences appended to myDiff list.
 sum = 0
 for i in range(len(myDiff)):
