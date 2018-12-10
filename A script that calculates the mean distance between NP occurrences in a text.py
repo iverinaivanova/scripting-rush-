@@ -89,8 +89,10 @@ sum = 0
 for i in range(len(myDiff)):
     sum = sum + float(myDiff[i])
 print("The total sum of differences is: ", sum)
+
 '''It calculates the mean distance between NPs by dividing
 the total sum of differences by the number of NPs'''
+
 print("The mean distance between NPs is: ", sum / len(myNPs))
 
 
