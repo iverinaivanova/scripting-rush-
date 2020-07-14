@@ -1,4 +1,4 @@
-## A script that calculates the mean distance between NP occurences in a text
+## A script that calculates the mean distance between noun occurences in a text
 
 ## Components:
 *xml Element Tree Module for parsing xml files
